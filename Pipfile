@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==3.0.4"
+djangorestframework = "==3.11.0"
+django-rest-auth = "==0.9.5"
+django-allauth = "==0.41.0"
+django-extensions = "*"
+werkzeug = "*"
+drf-yasg = {extras = ["validation"], version = "*"}
+pytest-django = "*"
+coverage = "*"
+
+[requires]
+python_version = "3.7"
